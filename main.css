@@ -53,3 +53,7 @@ div.jumbotron {
 	margin-bottom: 25px;
 	
 }
+
+div#Projects.container {
+	text-align: center;
+}
