@@ -58,3 +58,6 @@ div.jumbotron {
 p {
 	text-align: center;
 }
+ #contact a {
+	 padding: 0 10px;
+ }
