@@ -61,3 +61,12 @@ p {
  #contact a {
 	 padding: 10px 10px ;
  }
+
+#projects li, ul {
+	list-style: none;
+	padding-left: 10px;
+}
+.thumbnail {
+	margin: 20 0 5 0;
+
+}
