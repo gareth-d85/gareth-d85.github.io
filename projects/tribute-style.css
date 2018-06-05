@@ -13,9 +13,12 @@ h1, h3 {
 }
 
 main {
+  padding-top: 25px;
   margin-left: 10%;
-	margin-right: 10%;
-	height:400px;
+  margin-right: 10%;
+  padding-bottom: 25px;
+  /* height:400px; */
+  background-color: #63606b;
 }
 
 #img-div {
@@ -28,10 +31,12 @@ main {
   display: block;
   max-width: 300px;
   width: 100%;
+  border-radius: 10px;
 }
 
 figcaption {
   text-align: center;
+  padding-top: 10px;
 } 
 
 #tribute-list {
@@ -46,5 +51,6 @@ figcaption {
 footer {
   font-size: 1.25em;
   text-align: center;
+  padding: 2% 0;
 }
 
