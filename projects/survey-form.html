@@ -12,7 +12,43 @@
 
   <h1 id="title">Survey Form</h1>
 
-  <div class="container">
+  <div class="container main">
+    <p id="description">Please fill out this form to let us know how you are doing</p>
+    <form id="survey-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" name="name" id="name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" name="email" id="email">
+      </div>
+
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" class="form-control" name="age" id="age">
+      </div>
+
+      <div class="form-group">
+          <label for="fcc-time">How long have you been learning with Free Code Camp?</label>
+          <select class="form-control" id="fcc-time">
+            <option>0 to 1 year</option>
+            <option>2 years</option>
+            <option>3 years</option>
+            <option>4 years</option>
+          </select>
+        </div>
+
+      <div class="form-group">
+        <label for="helpful">Do you find Free Code Camp helpful?</label>
+        <input type="radio" name="helpful" value="yes" /> Yes
+        <input type="radio" name="helpful" value="no" /> No
+        <input type="radio" name="helpful" value="sometime" /> Sometimes
+      </div>
+    </form>
+
+    
     
 
 
@@ -23,6 +59,6 @@
   
 
 
-
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
