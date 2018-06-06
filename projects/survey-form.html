@@ -16,35 +16,65 @@
     <p id="description">Please fill out this form to let us know how you are doing</p>
     <form id="survey-form">
       <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" class="form-control" name="name" id="name">
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" class="form-control" name="name"  placeholder="enter your name">
       </div>
 
       <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" class="form-control" name="email" id="email">
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="enter your email address">
       </div>
 
       <div class="form-group">
-        <label for="age">Age:</label>
-        <input type="number" class="form-control" name="age" id="age">
+        <label id="number-label" for="age">Age:</label>
+        <input type="number" class="form-control" name="age" min="12" max="114" id="number" placeholder="enter your age">
       </div>
 
       <div class="form-group">
-          <label for="fcc-time">How long have you been learning with Free Code Camp?</label>
-          <select class="form-control" id="fcc-time">
-            <option>0 to 1 year</option>
-            <option>2 years</option>
-            <option>3 years</option>
-            <option>4 years</option>
+          <label for="role">Which option best describes your current role?</label>
+          <select class="form-control" id="dropdown">
+            <option value="Student" selected>Student</option>
+            <option value="full-time-job">Full time job</option>
+            <option value="full-time-learner">Full time learner</option>
+            <option value="not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
           </select>
         </div>
 
       <div class="form-group">
-        <label for="helpful">Do you find Free Code Camp helpful?</label>
-        <input type="radio" name="helpful" value="yes" /> Yes
-        <input type="radio" name="helpful" value="no" /> No
-        <input type="radio" name="helpful" value="sometime" /> Sometimes
+        <label for="helpful">How likely is that you would recommend freeCodeCamp to a friend?</label>
+        <input type="radio" name="helpful" value="definitely" /> Definitely
+        <input type="radio" name="helpful" value="maybe" /> Maybe
+        <input type="radio" name="helpful" value="not-sure" /> Not Sure
+      </div>
+
+      <div class="form-group">
+        <label for="">What do you like most about FCC?</label>
+        <select name="" id="">
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open-source">Open source</option>
+        </select>
+      </div>
+
+      <!-- update to bootstrap standard -->
+      <div class="form-check">
+        <label for="">Things that should be improved in the future (Check all that apply):</label>
+        <input type="checkbox" name="future" id="front-end">
+        <label for="front-end">Front-end projects</label>
+        <input type="checkbox" name="future" id="back-end">
+        <label for="back-end">Back-end projects</label>
+        <input type="checkbox" name="future" id="data-vis">
+        <label for="data-vis">Data Visualization</label>
+        <input type="checkbox" name="future" id="challenges">
+        <label for="challenges">Challenges</label>
+        <input type="checkbox" name="future" id="open-source">
+        <label for="open-source">Open source community</label>
+        <input type="checkbox" name="future" id="gitter-chat">
+        <label for="gitter-chat">Gitter help rooms</label>
+        <input type="checkbox" name="future" id="gitter-chat">
+        <label for="gitter-chat">Gitter help rooms</label>
       </div>
     </form>
 
