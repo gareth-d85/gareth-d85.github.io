@@ -15,19 +15,19 @@
   <div class="container main">
     <p id="description">Please fill out this form to let us know how you are doing</p>
     <form id="survey-form">
-      <div class="form-group">
-        <label id="name-label" for="name">Name:</label>
-        <input type="text" id="name" class="form-control" name="name"  placeholder="enter your name">
+      <div class="form-group row">
+        <label class="col" id="name-label" for="name">Name:</label>
+        <input class="col" type="text" id="name" class="form-control" name="name"  placeholder="enter your name">
       </div>
 
-      <div class="form-group">
-        <label id="email-label" for="email">Email:</label>
-        <input type="email" class="form-control" name="email" id="email" placeholder="enter your email address">
+      <div class="form-group row">
+        <label class="col-md-6" id="email-label" for="email">Email:</label>
+        <input class="col-md-6" type="email" class="form-control" name="email" id="email" placeholder="enter your email address">
       </div>
 
-      <div class="form-group">
-        <label id="number-label" for="age">Age:</label>
-        <input type="number" class="form-control" name="age" min="12" max="114" id="number" placeholder="enter your age">
+      <div class="form-group row">
+        <label class="col-md-6" id="number-label" for="age">Age:</label>
+        <input class="col-md-6" type="number" class="form-control" name="age" min="12" max="114" id="number" placeholder="enter your age">
       </div>
 
       <div class="form-group">
@@ -61,21 +61,44 @@
       <!-- update to bootstrap standard -->
       <div class="form-check">
         <label for="">Things that should be improved in the future (Check all that apply):</label>
-        <input type="checkbox" name="future" id="front-end">
-        <label for="front-end">Front-end projects</label>
-        <input type="checkbox" name="future" id="back-end">
-        <label for="back-end">Back-end projects</label>
-        <input type="checkbox" name="future" id="data-vis">
-        <label for="data-vis">Data Visualization</label>
-        <input type="checkbox" name="future" id="challenges">
-        <label for="challenges">Challenges</label>
-        <input type="checkbox" name="future" id="open-source">
-        <label for="open-source">Open source community</label>
-        <input type="checkbox" name="future" id="gitter-chat">
-        <label for="gitter-chat">Gitter help rooms</label>
-        <input type="checkbox" name="future" id="gitter-chat">
-        <label for="gitter-chat">Gitter help rooms</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="front-end" id="front-end">
+        <label class="form-check-label" for="front-end">Front-end projects</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="back-end" id="back-end">
+        <label class="form-check-label" for="back-end">Back-end projects</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="data-vis" id="data-vis">
+        <label class="form-check-label" for="data-vis">Data Visualization</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="challenges" id="challenges">
+        <label class="form-check-label" for="open-source">Open source community</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="gitter-chat" id="gitter-chat">
+        <label class="form-check-label" for="gitter-chat">Gitter help rooms</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="meetups" id="meetups">
+        <label class="form-check-label" for="meetups">City Meetups</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="videos" id="videos">
+        <label class="form-check-label" for="videos">Videos</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="wiki" id="wiki">
+        <label class="form-check-label" for="wiki">Wiki</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="forum" id="forum">
+        <label class="form-check-label" for="forum">Forums</label>
+        
+        <input class="form-check-input" type="checkbox" name="future" value="add-courses" id="add-courses">
+        <label class="form-check-label" for="add-courses">Additionl Courses</label>
+
+        <label class="form-check-input" for="textarea">Any Comments or Suggestions?</label>
+        <textarea name="textarea" rows="3" cols="25">Enter your comments here</textarea>
+
+        <input type="submit" value="Submit"></form>
       </div>
+
+
     </form>
 
     
