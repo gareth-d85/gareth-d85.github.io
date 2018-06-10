@@ -6,3 +6,11 @@ body {
     background-color: white;
     border-radius: 5px;
 }
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
