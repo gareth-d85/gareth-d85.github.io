@@ -5,6 +5,9 @@ body {
 .main {
     background-color: white;
     border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0 10% 2.5% 10%;
 }
 
 #title {
@@ -13,4 +16,9 @@ body {
 
 #description {
     text-align: center;
+}
+
+#submit {
+    display: block;
+    margin: auto;
 }
