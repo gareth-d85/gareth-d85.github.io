@@ -20,8 +20,7 @@
 }
 
 .main-section {
-  padding-top: 6em;
-  margin-top: 6em;
+  padding-top: 8em;
 }
 
 .info-row h2 {
@@ -38,7 +37,7 @@
 }
 
 .contact {
-
+  padding-top: 10em;
   background: #000000;
   background: -moz-linear-gradient(top, #000000 0%, #45484d 100%);
   background: -webkit-linear-gradient(top, #000000 0%,#45484d 100%);
