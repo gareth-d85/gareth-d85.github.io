@@ -1,0 +1,190 @@
+/* colors
+  #024959
+  #F2C777
+  #F24638
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.navbar-brand p {
+  padding: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  letter-spacing: 0.2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+header {
+  background: url("../img/frantisek.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.hero-text {
+  margin-top: 10%;
+}
+
+.hero-text h1 {
+  color: #F2C777;
+  font-size: 5rem;
+  letter-spacing: 0.2em;
+  font-weight: 600; 
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.99);
+}
+
+.hero-text p {
+  color: #ffffff;
+  letter-spacing: 0.2em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  margin: 50px 0 100px 0;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.99);
+}
+
+#about {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#about .fab {
+  margin: 10px 10px;
+  color: #092140;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+#about .fab:hover {
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+.headshot {
+  display: block;
+  width: 350px;
+  -webkit-box-shadow: 1px 1px 7px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 1px 1px 7px 0px rgba(50, 50, 50, 0.562);
+  box-shadow: 1px 1px 7px 0px rgba(50, 50, 50, 0.75);
+}
+
+#projects {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #d3d3d3;
+}
+
+.card {
+  display: block;
+}
+
+.modal-body img {
+  width: 100%;
+}
+
+#contact {
+  height: 30%;
+  background: #000A1E;
+  color: #fff;
+  text-align: center;
+}
+
+#contact h1 {
+  margin-bottom: 2rem;
+}
+
+#contact a {
+  color: white;
+}
+
+#contact a:hover {
+  color: #F2C777;
+}
+
+.contact-left {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+.contact-bg {
+  background: url("../img/james-sutton-188689-unsplash.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 50vh;
+}
+
+footer {
+  height: 200px;
+  background: #092140;
+}
+
+
+.footer-text a,
+.footer-text p {
+  padding-right: 15px;
+  margin-bottom: 15px;
+}
+
+footer p {
+  color: #F2C777;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #F2C777;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+  .navbar-brand p {
+    font-size: .95rem;
+    font-weight: bold;
+  }
+
+  .hero h1 {
+    font-size: 3.75rem;
+  }
+
+  .hero-text {
+    margin-top: 30%;
+  }
+
+  #about {
+    margin: 80px 0;
+  }
+
+ }
+
+@media (max-width: 768px) {
+
+
+ }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
