@@ -89,6 +89,11 @@ header {
   background: #d3d3d3;
 }
 
+#projects h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .card {
   display: block;
 }
